@@ -146,11 +146,11 @@ def select_preemption_strategy(self, request):
 ```
 
 Evaluation Metrics
-Tail TTFT: 95th percentile Time-to-First-Token latency.
+Tail TTFT: Time-to-First-Token latency.
 
 TTFT SLO Attainment: Fraction of requests meeting their TTFT SLOs.
 
-Tail TBT: 95th percentile Time-Between-Tokens latency.
+Tail TBT: Time-Between-Tokens latency.
 
 TBT SLO Attainment: Fraction of requests meeting their TBT SLOs.
 
